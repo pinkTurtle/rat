@@ -1,0 +1,10 @@
+{
+  "name": "Tougher",
+  "version": "1.0.0",
+  "description": "Tougher landing page",
+  "dependencies": {},
+  "devDependencies": {
+    "nib": "*"
+  },
+  "main": "index"
+}
