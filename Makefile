@@ -1,15 +1,14 @@
-
-make install:
-	npm install -g jade
-	npm install -g stylus
-	npm install -g components
-	bash install.sh
-
-make all:
+all:
 	clear
 	make css
 	make js
 	make html
+
+install:
+	npm install -g jade
+	npm install -g stylus
+	npm install -g component
+	bash install.sh
 
 html:
 	jade sources/views/index.jade -O website/
@@ -32,4 +31,4 @@ deploy:
 	git push origin master
 	make ftp-push
 
-.PHONY: html
+.PHONY: install  html all css clean-js
