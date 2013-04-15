@@ -1,10 +1,10 @@
 {
-  "name": "Tougher",
+  "name": "sbr-program",
   "version": "1.0.0",
-  "description": "Tougher landing page",
+  "description": "Summit program page and child pages",
   "dependencies": {},
   "devDependencies": {
     "nib": "*"
   },
-  "main": "index"
+  "main": "program"
 }

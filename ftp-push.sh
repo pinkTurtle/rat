@@ -1,6 +1,6 @@
 #!/bin/bash
 ftp -inv 67.222.18.91 <<FINFTP
-user tougher 2013reality
+user usuario clave
 binary
 cd public_html/
 lcd website/
