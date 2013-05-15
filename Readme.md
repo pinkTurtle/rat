@@ -46,4 +46,9 @@ You can read [install file](https://github.com/git-ftp/git-ftp/blob/develop/INST
 
 ## Some tips
 
-There will be some tips in here soon.
+- Edit every file to fit your needs, i.e.
+
+        * tools/ftp-push
+        * Makefile
+
+- Do not forget to add/keep updated `.git-ftp-ignore` file.
