@@ -1,12 +1,12 @@
-# Tougher landpage
+# Rat clean web site
 
 ## How to start
 
   1 - Install compilers
 
-    . `sudo npm install -g jade`
-    . `sudo npm install -g component`
-    . `sudo npm install -g stylus`
+  . `sudo npm install -g jade`
+  . `sudo npm install -g component`
+  . `sudo npm install -g stylus`
 
   2 - Install npm dependencies
 
