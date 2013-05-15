@@ -4,18 +4,18 @@
 
 1.Install compilers
 
-    * sudo npm install -g jade
-    * sudo npm install -g component
-    * sudo npm install -g stylus
+    $ sudo npm install -g jade
+    $ sudo npm install -g component
+    $ sudo npm install -g stylus
 
-2.Install npm dependencies
+2.Install npm dependencies. Just type:
 
-    * go to `sources/styles/` folder
-    * do `npm install`
+    $ cd sources/styles/
+    $ npm install
 
 3.Add permissions to execute bash scripts
 
-    * `chmod +x ftp-push.sh compiler.sh`
+    $ chmod +x ftp-push.sh compiler.sh
 
 4.Install `git ftp`
 
@@ -43,3 +43,7 @@ You can read [install file](https://github.com/git-ftp/git-ftp/blob/develop/INST
 
   - `make deploy`: push to master [ through git ] and push files to stage [ through ftp ]. You need to add and
   commit first.
+
+## Some tips
+
+There will be some tips in here soon.
