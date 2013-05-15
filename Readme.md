@@ -17,11 +17,11 @@
 
     . `chmod +x ftp-push.sh compiler.sh`
 
-  4 - Install `git ftp`: this is used to push files to web server. This tool
-    combines git tracking whith ftp tools to upload just the modified files.
+  4 - Install `git ftp`
 
-  - You need to clone the `git-ftp` github repository and follow install instructions
+  - You need to clone the [git-ftp](https://github.com/git-ftp/git-ftp) github repository and follow install instructions
 
+  
 ## Make rules
 
   - `make html`: compile jade files
