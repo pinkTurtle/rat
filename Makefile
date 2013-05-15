@@ -25,7 +25,7 @@ clean-js:
 ftp-push:
 	clear
 	make all
-	bash ftp-push.sh
+	git ftp push -u {place-user} -p {place-password} ftp://{place-site-address}
 
 deploy:
 	git push origin master

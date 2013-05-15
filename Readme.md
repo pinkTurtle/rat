@@ -17,8 +17,8 @@
 
     . `chmod +x ftp-push.sh compiler.sh`
 
-  4 - Install `git ftp`
-   some testing
+  4 - Install `git ftp`: this is used to push files to web server. This tool
+    combines git tracking whith ftp tools to upload just the modified files.
 
 ## Make rules
 
@@ -32,4 +32,5 @@
 
   - `make ftp-push`: push compiled files and push them to the hosting
 
-  - `make deploy`:i push to master and push files to stage
+  - `make deploy`: push to master and push files to stage. You need to add and
+  commit first.
