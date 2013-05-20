@@ -31,7 +31,11 @@ For instance:
 You can read [install file](https://github.com/git-ftp/git-ftp/blob/master/INSTALL.md) from [git-ftp](https://github.com/git-ftp/git-ftp)
 
 5.Alternatively you may need to install 
-[git-deploy](git@github.com:Juan-Facundo/git-deploy.git)
+[git-deploy](https://github.com/Juan-Facundo/git-deploy)
+
+  . You need to install the ruby gems: net-ssh, net-sftp, net-scp. So
+
+    $ sudo gem install net-ssh net-sftp net-scp
 
     $ git clone git@github.com:Juan-Facundo/git-deploy.git
     $ cd git-deploy
