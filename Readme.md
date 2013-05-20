@@ -28,7 +28,15 @@ For instance:
     $ git checkout master
     $ sudo make install
 
-You can read [install file](https://github.com/git-ftp/git-ftp/blob/develop/INSTALL.md) from [git-ftp](https://github.com/git-ftp/git-ftp)
+You can read [install file](https://github.com/git-ftp/git-ftp/blob/master/INSTALL.md) from [git-ftp](https://github.com/git-ftp/git-ftp)
+
+5.Alternatively you may need to install 
+[git-deploy](git@github.com:Juan-Facundo/git-deploy.git)
+
+    $ git clone git@github.com:Juan-Facundo/git-deploy.git
+    $ cd git-deploy
+    $ sudo cp bin/git-deploy /usr/local/bin (ensure your $PATH)
+
 ## Make rules
 
   - `make html`: compile jade files
