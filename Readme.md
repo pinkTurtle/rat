@@ -17,7 +17,9 @@
 
     $ chmod +x ftp-push.sh compiler.sh
 
-4.Install `git ftp`
+4.Install ftp-tool
+
+  - Install `git ftp`
 
 You need to clone the [git-ftp](https://github.com/git-ftp/git-ftp) github repository and follow install instructions.
 
@@ -30,7 +32,7 @@ For instance:
 
 You can read [install file](https://github.com/git-ftp/git-ftp/blob/master/INSTALL.md) from [git-ftp](https://github.com/git-ftp/git-ftp)
 
-5.Alternatively you may need to install 
+  - Alternatively you may need to install 
 [git-deploy](https://github.com/Juan-Facundo/git-deploy)
 
   . You need to install the ruby gems: net-ssh, net-sftp, net-scp. So
