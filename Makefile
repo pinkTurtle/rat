@@ -27,6 +27,10 @@ ftp-push:
 	make all
 	git ftp push -u {place-user} -p {place-password} ftp://{place-site-address}
 
+stage-deploy:
+	git deploy stage
+	tools/push-compiled
+
 deploy:
 	git push origin master
 	make ftp-push
