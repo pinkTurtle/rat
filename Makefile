@@ -29,7 +29,7 @@ ftp-push:
 
 stage-deploy:
 	git deploy stage
-	tools/push-compiled
+##	tools/push-compiled
 
 deploy:
 	git push origin master
