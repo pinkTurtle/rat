@@ -6,6 +6,7 @@
   user: {place-user}
   password: {'place-password'} #leave colons "'"
   host: {place-host}
+  passive: true
   port: 21
   path: /
   local_path: public_html/

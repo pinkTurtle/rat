@@ -4,8 +4,9 @@
   skip: false
   scheme: ftp
   user: html@cubhub.com
-  password: 'alfil10asesino' #leave colons "'"
+  password: '' #leave colons "'"
   host: 67.222.18.91
   port: 21
   path: /
+  passive: true
   local_path: website/
