@@ -1,38 +1,18 @@
+WP_THEME=website/wp-content/themes/summit
+HTML=website/html
+
 all:
 	clear
 	make css
-	make js
-	make html
-
-install:
-	npm install -g jade
-	npm install -g stylus
-	npm install -g component
-	bash install.sh
-
-html:
-	jade sources/views/index.jade -O website/
+	make jade
 
 css:
-	stylus sources/styles/main.styl -o website/css/
+#	stylus sources/styles/style.styl -o $(WP_THEME)
+	stylus sources/styles/style.styl -o $(HTML)
 
-js:
-	bash compiler.sh
+jade:
+# jade sources/html/home.jade -o $(HTML)
+	cd sources/html/;  node index.js home
 
-clean-js:
-	rm -fr sources/javascript/build sources/javascript/components sources/javascript/template.js
-
-ftp-push:
-	clear
-	make all
-	git ftp push -u {place-user} -p {place-password} ftp://{place-site-address}
-
-stage-deploy:
-	git deploy stage
-##	tools/push-compiled
-
-deploy:
-	git push origin master
-	make ftp-push
-
-.PHONY: install  html all css clean-js
+clear:
+	rm website/html/*

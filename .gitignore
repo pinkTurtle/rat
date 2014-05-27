@@ -1,3 +1,4 @@
+
 website/cache
 sources/javascript/components
 sources/javascript/build/**/*
@@ -23,4 +24,5 @@ website/wp-config.php
 .DS_Store
 Thumbs.db
 *.log
+
 
