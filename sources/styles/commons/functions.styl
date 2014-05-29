@@ -20,46 +20,16 @@ wrap()
   margin: 0 auto
   position: relative
 
-social-icon(color, caracter)
+social-icon(bgcolor, caracter, med, color)
   display: block
   &:before
-    background-color: color
+    background-color: bgcolor
     icon(caracter) 
     border-radius:6px
-    width: 28px
-    height: 28px
+    width: med
+    height: med
     display: block
-    line-height: 28px
-    color: white
+    line-height: med
+    color: color
     font-size: 16px
 
-.social-menu
-  li
-    &.facebook a
-      social-icon(#057AC5, '\e805')
-    &.twitter a
-      social-icon(#00DEFF, '\e804')
-    &.youtube a
-      social-icon(#D30622, '\e807')
-    &.flickr a
-      social-icon(#ED2A90, '\e806')
-    &.bsa a
-      social-icon(#57575c, '\e80a')
-    a
-      display:block
-      overflow:hidden
-      height: 28px
-      width: 33px
-      &:before
-        text-indent: 0px
-      &:hover:before
-        color: $font-grey2
-        
-.icon-tips
-  &:before
-    font-family: "mestizoamerica"
-    font-size: 25px
-    content:'\e810'
-    display: inline-block
-    color: white
-    float: left        

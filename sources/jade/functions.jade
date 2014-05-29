@@ -1,0 +1,10 @@
+﻿mixin menu(items)
+  ul( class!=attributes.class )
+    - each item in items
+      li( class="#{item.class}"  , target="#{item.target}")
+        a(href="#{item.link}") #{item.name}
+
+mixin menu_example()
+  - var json = [{"name":"Scouting.org", "link":"http://scouting.org", "target":"_blank", "class":""},{"name": "About us", "class":"current_page_item", "link": "about.html","target":"_blank", "children":[{"title":"pepe"}]}, {"name":"Contact Us", "link":"contact.html","target":"_self", "class":""}, {"name":"Blog", "link":"blog.html", "target":"_blank", "class":""} ]
+  +menu(json)(class="internal-menu") 
+  
